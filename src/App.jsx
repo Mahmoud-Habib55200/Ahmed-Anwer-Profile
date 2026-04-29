@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import Navbar from "./components/Navbar";
 import SectionTitle from "./components/SectionTitle";
+import { IT } from "./img";
 
 const stats = [
   { value: "15", label: "Years Experience", color: "text-primary" },
@@ -384,20 +385,16 @@ export default function App() {
             <div className="relative hidden md:block">
               <div className="server-rack-container" data-tilt data-tilt-glare data-tilt-max="15" data-tilt-max-glare="0.5">
                 <div
-                  className="server-rack w-72 h-96 mx-auto glass rounded-lg p-6 shadow-2xl"
+                  className="server-rack   h-[600px] mx-auto glass rounded-lg p-6 shadow-2xl"
                   ref={(e) => {
                     serverRackRef.current = e;
                     addRef(tiltRefs, e?.parentElement || null);
                   }}
                 >
-                  <div className="flex items-center justify-between mb-6">
-                    <div className="flex gap-1">
-                      <div className="w-2 h-2 rounded-full bg-error" />
-                      <div className="w-2 h-2 rounded-full bg-tertiary-container" />
-                      <div className="w-2 h-2 rounded-full bg-primary-container" />
-                    </div>
-                    <span className="text-[10px] text-primary/50 font-mono tracking-tighter">NODE_01_COMMAND</span>
-                  </div>
+                     
+                     <img src={IT} alt="" />
+                   
+                   
                   <div className="space-y-1">
                     <div className="h-4 bg-slate-800 rounded animate-pulse" />
                     <div className="h-4 bg-slate-800 rounded animate-pulse" style={{ animationDelay: "0.2s" }} />

@@ -1,4 +1,4 @@
-import IT from './7e3f3b6f-72be-4c08-a36b-50ecdc5a952a.png'
+import IT from './ChatGPT Image Apr 29, 2026, 09_59_51 AM.png'
 
 export {
      IT
