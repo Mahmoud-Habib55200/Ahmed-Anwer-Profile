@@ -39,7 +39,7 @@ export default function Navbar({ addMagneticRef }) {
     <header className="fixed top-0 w-full z-50 bg-slate-950/70 backdrop-blur-md border-b border-cyan-500/10" ref={wrapperRef}>
       <nav className="flex justify-between items-center px-6 md:px-8 lg:px-12 py-4 max-w-full mx-auto">
         <div className="text-2xl font-black tracking-tighter text-cyan-400 italic font-headline cursor-pointer hover:scale-105 transition-transform">
-          KINETIC COMMAND
+          AHMED ANWAR
         </div>
 
         <div className="hidden lg:flex gap-8">
